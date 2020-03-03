@@ -2,12 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
     selector: 'mi-componente', //etiqueta html
-    template: `
-        
-        <h1> {{titulo}} </h1>
-        <p> {{ comentario }} </p>
-        <h2>{{ year }}</h2>
-    `
+    templateUrl: './mi-componente.component.html';
 })
 
 export class MiComponente {
